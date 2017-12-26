@@ -1,0 +1,222 @@
+
+body{
+	background-image: url('images/backgroundAstro.jpg');
+	color: #FFF;
+	font-size:87.5%; /*base font size is 14px */
+	font-family:Arial ,'Lucida Sans Unicode' ;
+	line-height: 1.5;
+	text-align:  left;
+	width: 1000px;
+	height: 1000px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:Link, a:visited {
+
+}
+
+a:hover , a:active {
+	
+}
+.Trouvez{
+	color: black;
+	font-style: italic;
+
+}
+.Cancer{
+width: 100px;
+height: 100px;
+}
+.TaureauIm{
+	width: 100px;
+	height: 100px;
+}
+.img{
+	width: 50px;
+	height: 50px;
+}
+
+
+.Titretab{
+	font-family:bold;
+	color: black;
+	font-style: italic;
+	height: 30px;
+	font-size: 25px;
+}
+.table{
+	height: 400px;
+	width: 800px;
+	columns: 4;
+	
+	margin-right: 1000px;
+	padding: 
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainheader img{
+	width: 30%;
+	height: auto;
+	margin: 2% 0 ;
+}
+.mainheader nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 1050px;
+
+
+} 
+.mainheader nav ul {
+	list-style: none;
+	margin: 0 auto;
+	height: 10px;
+
+}
+
+.mainheader nav ul li {
+	
+	float: left;
+	display: inline;
+	height: 10px;
+	
+}
+
+.mainheader nav a:link ,mainheader nav a:visted  {
+	color: #FFF;
+	display: inline-block;
+	
+	height: 20px;
+	padding: 10 25px;
+	height: 20px;
+	
+	/* come back here to assign  height */
+}
+.mainheader nav a:hover, .mainheader nav a:active ,
+.mainheader nav .active a:link , .mainheader nav  .active a:visited{
+	background-color: #CF4C3F;
+	height: 10px;
+	  text-shadow: none;
+
+}
+.mainheader nav ul li a {
+	position: center;
+	padding: 10px 10px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	
+	color: #FFF;
+	height: 10px;
+
+
+
+}
+.mainContent
+{
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px ;
+	
+
+}
+.content{
+	width: 70%;
+	float: left;
+	
+
+}
+.topcontent{
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.top-sidebar{
+	width: 25%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.middle-sidebar{
+	width: 25%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.bottom-sidebar{
+	width: 25%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.fieldset{
+	height: 500px
+	
+}
+
+.extra-wrap{
+	height: 300px,
+	
+.buttons{
+	padding: 15px;
+	text-align: right;
+	color: #FFF;
+	margin-left: 15px;
+	font-style: bold;
+	font-size: 30px;
+
+}
+.button{
+	background-color: #666;
+	height: 70px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	width: 80px;
+	background-size: 80px;
+	margin-left: 30px;
+
+}
+.button a:link ,button  a:visted  {
+	color: #FFF;
+	display: inline-block;
+	margin-left: 30px;
+	height: 20px;
+	size: 80px;
+	padding: 10 25px;
+	height: 20px;
+	
+	/* come back here to assign  height */
+}
+}
+.button  a:hover, .button  a:active  , .button a.active a:visited{
+	background-color: #CF4C3F;
+	height: 20px;
+	width: 20px;
+	  text-shadow: none;
+
+
+}

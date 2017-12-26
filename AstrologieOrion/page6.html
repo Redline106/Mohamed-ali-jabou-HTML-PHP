@@ -1,0 +1,100 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Astro</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet"  href="Main.css" type="text/css"/>
+	<meta name="viewport" content="width=device=width , initial-scale=1.0">
+</head>
+<body class="body">
+<header class="mainheader">
+
+<h2>Astorogie D'Orion </h2>
+
+
+<nav class="mainheader nav"><ul>
+	<li><a class="active" href="index.html"> Acceuil </a></li>	
+	<li><a href="page2.html">Les signe et dates de zodiaques </a></li>	
+
+	<li><a href="page3.html"> Les caracteristiques des signes du zodiaque   </a></li>	
+	<li><a href="page4.html"> Les Traits assiciés aux différent signes </a></li>	
+	<li><a href="page5.html">Contact </a></li>	
+    <li><a href="page5.html">Horoscope</a></li>
+	
+</ul></nav>	
+</header>
+
+
+
+
+<div class="mainContent">
+	<div class="content">
+		
+		<h3 class="p1">Horoscope du jour </h3>
+
+<FORM id="contact-form" method="POST" Action="Form_script.php" >
+		<fieldset class="fieldset">
+			<label>
+				<span class="text-form">Nom:</span>
+				<input type="text" name="name" size="30"/>
+			</label>
+            <br>
+			<label>
+				<span class="text-form"> Prenom:</span>
+				<input type="text" name="firstname">
+			</label>
+			<br>
+			<label>
+				<span class="text-form"> Date Naissance:</span>
+				<input type="Date" name="date">
+			</label>
+            <br>
+            <span class="text-form">Signes de zodiaque:</span> 
+            <select name="signes">
+                
+                 <option value=1>Taureau :</option>
+                 <option value=2>Belier:</option>
+                 <option value=3>Gemeaux :</option>
+                 <option value=4>Cancer</option>
+                 <option value=5>Lion :</option>
+                 <option value=6>Vierge:</option>
+                 <option value=7>Balance :</option>
+                 <option value=8>scorpion</option>
+                 <option value=9>Sagittaire</option>
+                 <option value=10>Capricorne</option>
+                 <option value=11>verseau</option>
+                 <option value=12>poisson</option>
+
+
+
+
+             </select>
+
+
+			<DIV class="wrapper"></DIV>
+			
+
+			<div class="buttons">
+			
+
+</div>
+
+
+
+					
+				
+		</fieldset>
+		<input type="submit" name="submit" value="Submit" />
+	
+			
+	</div>
+	
+</div>
+
+
+
+
+
+</body>
+</html>

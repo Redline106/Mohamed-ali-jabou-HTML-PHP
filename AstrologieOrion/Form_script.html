@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        
+    </body>
+
+
+   
+
+
+
+
+
+<?php
+    
+$name=$_POST['name'];
+$firstname=$_POST['firstname'];
+$date=$_POST['date'];
+$signe=$_POST['signes'];
+
+switch($signe)
+{
+    case "1" :
+    echo <p>"Lune L’astre lunaire terminera sa course dans le signe du Bélier. Nous nous montrerons prêts à tout pour réaliser nos rêves et nos désirs.
+
+Amour Vous aurez le vent dans les voiles en ce qui concerne l’amour. Une belle rencontre chavirera votre cœur.
+
+Santé Un problème de gencive ou un mal de dents vous obligera peut-être à suivre un traitement coûteux… Que voulez-vous, ce sont des choses qui arrivent !
+
+Travail et Argent La chance professionnelle est importante !"</p>;
+    break;
+
+     case "2" :
+    echo <p>"Lune L’astre lunaire est entré dans le Bélier et il nous invite à ne pas donner prise à nos peurs, nos insécurités et nos angoisses.
+
+    Général Vous allez planifier au quart de tour votre journée puis des amis, des proches ou l’être aimé viendront interrompre votre élan. Dans un même souffle, 
+    un conflit pourrait survenir entre certains membres de la famille — la soirée s’annonce donc pour le moins épicée !"</p>;
+    break;
+
+    case "3" :
+    echo <h3>$signe<h3> <p>"Lune L’astre lunaire est entré dans le Bélier et il nous invite à ne pas donner prise à nos peurs, nos insécurités et nos angoisses.
+
+Général Une sœur ou un frère agira de manière perturbée et, comme les émotions s’attrapent tel un bon rhume, tout le monde tombera dans le négatif. En fait, il ou elle travestira la vérité pour arriver à ses fins. Ainsi prévenu, vous pourrez contrecarrer son action et respirer un peu.
+
+"</p>;
+    break;
+
+   
+
+}
+
+?>
+
+
+
+
+
+
+</html>
